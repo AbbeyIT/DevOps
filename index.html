@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: ''
+    }
+    window.$docsify = {
+      themeColor: "#1e3530", 
+      name: 'DevOps Notes',
+      repo: 'https://github.com/AbbeyIT/DevOps',
+      loadNavbar: true,
+      coverpage: true,
+
+      // Custom file name
+      coverpage: '_coverpage.md',
+
+      // multiple covers
+      coverpage: ['/', '/zh-cn/'],
+
+      // multiple covers and custom file name
+      coverpage: {
+        '/': '_coverpage.md',
+        '/zh-cn/': '_coverpage.md',
+      },
+
+      // load from _sidebar.md
+      loadSidebar: true,
+
+      // load from summary.md
+      loadSidebar: '_sidebar.md',
+    };
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
