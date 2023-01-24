@@ -126,7 +126,7 @@ How are computers are connected?
 
 ![Ring topology](assets/ring-topology.png)
 
-3. ****Star**
+3. **Star**
 - There is one controlling device or one central device that is connected to all the computer.
 - If computer A wants to send something to computer B, then, it will communicate via the central device
 - Limitations: if the central device fails, then computer system will go down, the network will go down
