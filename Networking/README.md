@@ -46,6 +46,7 @@ With this, you need a repeater.
 - Connecting hosts directly to each other doesn't scale
 
 5. **Hub**
+- The most basic device, within a computer network that connects computers together and has no other function
 - Simply multi-port Repeaters
 - Duplicates packets to all hosts
 - Facilitating scaling communication between additional hosts
